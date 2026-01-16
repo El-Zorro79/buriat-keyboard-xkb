@@ -1,4 +1,5 @@
 # buriat-keyboard-xkb
+
 Modern XKB keyboard layout for the Buriat language, based on the original 2008 layout and updated for Wayland, GNOME, KDE, and Xfce.
 
 # Buriat Keyboard Layout (XKB)
@@ -21,6 +22,9 @@ and has been modernized by Dorzho Dugarov for current Linux desktop environments
   - Ө ө
   - Ү ү
   - Һ һ
+- Extended Cyrillic characters via **Level3 (AltGr)**:
+  - Ф ф
+  - Ц ц
 - UTF-8 / Unicode compliant
 - Compatible with:
   - Wayland
@@ -29,6 +33,22 @@ and has been modernized by Dorzho Dugarov for current Linux desktop environments
   - KDE Plasma
   - Xfce
 - Designed as a foundation for Buriat UI localization and terminology work
+
+---
+
+## Key combinations (AltGr)
+
+This layout uses **Level3 (AltGr)** for extended Cyrillic characters.
+
+When the **Buriat (bua)** layout is active:
+
+- **AltGr + T** → ф  
+- **AltGr + Shift + T** → Ф  
+- **AltGr + C** → ц  
+- **AltGr + Shift + C** → Ц  
+
+> Note: These are **physical QWERTY keys**.
+> Make sure the **Buriat layout (bua)** is active when testing AltGr combinations.
 
 ---
 
@@ -51,23 +71,23 @@ and has been modernized by Dorzho Dugarov for current Linux desktop environments
 
 
 - `xkb/` — current, maintained layout files
-- `legacy/` — original (historical version) (v0.1, 2008)
+- `legacy/` — original historical version (v0.1, 2008)
 - `docs/` — documentation and layout diagrams
 
 ---
 
-Installation (system-wide)
+## Installation (system-wide)
+
+### 1. Copy layout files
 
 ```bash
-
-1. Copy layout files
-
 sudo cp xkb/symbols/bua /usr/share/X11/xkb/symbols/
 sudo cp xkb/rules/evdev.* /usr/share/X11/xkb/rules/
 
 2. Log out and log back in
 
 This is required for desktop environments to reload XKB layouts.
+
 Usage
 
 You can activate the layout via system settings
@@ -75,29 +95,36 @@ or manually for testing:
 
 setxkbmap -layout bua
 
+
 To inspect the active layout:
 
 setxkbmap -print -verbose 10
 
+Troubleshooting
+
+If new symbols do not work after installation, log out and log back in to rebuild the XKB cache.
+
+When using multiple layouts (e.g. fi,bua), make sure you switched to the Buriat layout before testing AltGr combinations.
+
 Design Principles
 
-    One language → one layout
+One language → one layout
 
-    No mixed RU+AltGr approach
+No mixed RU+AltGr approach
 
-    No dead keys for core alphabet
+No dead keys for core alphabet
 
-    Predictable, reproducible input for localization workflows
+Predictable, reproducible input for localization workflows
 
 License
 
 This project is licensed under the MIT License.
-See the LICENSE
-file for details.
+See the LICENSE file for details.
+
 Author
 
 Original layout (2008):
 Dorzho Dugarov
 
 Modernization and maintenance (2026):
-©Dorzho Dugarov, 2026
+© Dorzho Dugarov, 2026
