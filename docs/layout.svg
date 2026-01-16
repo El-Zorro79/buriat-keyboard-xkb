@@ -1,0 +1,1374 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1200"
+   height="430"
+   viewBox="0 0 1200 430"
+   version="1.1"
+   id="svg288"
+   sodipodi:docname="layout.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   inkscape:export-filename="layout.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview290"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.2058333"
+     inkscape:cx="541.53421"
+     inkscape:cy="239.66828"
+     inkscape:window-width="1920"
+     inkscape:window-height="979"
+     inkscape:window-x="1920"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg288">
+    <inkscape:grid
+       type="xygrid"
+       id="grid1745" />
+  </sodipodi:namedview>
+  <defs
+     id="defs4">
+    <style
+       id="style2">
+      .key { fill: #ffffff; stroke: #222; stroke-width: 1.2; }
+      .lbl { font-family: &quot;DejaVu Sans&quot;, &quot;Noto Sans&quot;, sans-serif; fill: #111; }
+      .base { font-size: 18px; font-weight: 600; }
+      .shift { font-size: 14px; opacity: 0.85; }
+      .altgr { font-size: 13px; opacity: 0.9; }
+      .hint { font-size: 12px; opacity: 0.75; }
+      .title { font-size: 20px; font-weight: 700; }
+      .sub { font-size: 13px; opacity: 0.8; }
+    </style>
+  </defs>
+  <!-- Header -->
+  <g
+     id="g6902">
+    <text
+       x="18.283504"
+       y="50.533585"
+       class="lbl title"
+       id="text6">Buriat keyboard layout (bua) — v1.1</text>
+    <text
+       x="18.283504"
+       y="29.606825"
+       class="lbl title"
+       id="text6-9"
+       style="font-weight:700;font-size:20px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;fill:#111111">Буряад товшуурын байрлал (bua) — хувилбар 1.1</text>
+    <text
+       x="18.283504"
+       y="66.141983"
+       class="lbl sub"
+       id="text8">Base / Shift / AltGr (Level3). Switch groups (e.g. FI ↔ BUA) then test AltGr.</text>
+  </g>
+  <!-- Legend -->
+  <!-- Helpers: key size -->
+  <!-- keyW=62, keyH=56, gap=8 -->
+  <!-- Row 1: QWERTY -->
+  <!-- Function to place: each key is a <g> with rect + 3 texts -->
+  <!-- You will fill actual symbols later -->
+  <!-- Row: Q W E R T Y U I O P -->
+  <text
+     class="lbl altgr"
+     x="28"
+     y="140"
+     id="text26" />
+  <text
+     class="lbl altgr"
+     x="98"
+     y="140"
+     id="text36" />
+  <text
+     class="lbl altgr"
+     x="168"
+     y="140"
+     id="text46" />
+  <text
+     class="lbl altgr"
+     x="238"
+     y="140"
+     id="text56" />
+  <text
+     class="lbl altgr"
+     x="378"
+     y="140"
+     id="text76" />
+  <text
+     class="lbl altgr"
+     x="448"
+     y="140"
+     id="text86" />
+  <text
+     class="lbl altgr"
+     x="518"
+     y="140"
+     id="text96" />
+  <text
+     class="lbl altgr"
+     x="588"
+     y="140"
+     id="text106" />
+  <text
+     class="lbl altgr"
+     x="658"
+     y="140"
+     id="text116" />
+  <!-- Row 2: A S D F G H J K L -->
+  <text
+     class="lbl altgr"
+     x="58"
+     y="210"
+     id="text128" />
+  <text
+     class="lbl altgr"
+     x="128"
+     y="210"
+     id="text138" />
+  <text
+     class="lbl altgr"
+     x="198"
+     y="210"
+     id="text148" />
+  <text
+     class="lbl altgr"
+     x="268"
+     y="210"
+     id="text158" />
+  <text
+     class="lbl altgr"
+     x="338"
+     y="210"
+     id="text168" />
+  <text
+     class="lbl altgr"
+     x="408"
+     y="210"
+     id="text178" />
+  <text
+     class="lbl altgr"
+     x="478"
+     y="210"
+     id="text188" />
+  <text
+     class="lbl altgr"
+     x="548"
+     y="210"
+     id="text198" />
+  <text
+     class="lbl altgr"
+     x="618"
+     y="210"
+     id="text208" />
+  <!-- Row 3: Z X C V B N M -->
+  <text
+     class="lbl altgr"
+     x="98"
+     y="280"
+     id="text220" />
+  <text
+     class="lbl altgr"
+     x="168"
+     y="280"
+     id="text230" />
+  <text
+     class="lbl altgr"
+     x="308"
+     y="280"
+     id="text250" />
+  <text
+     class="lbl altgr"
+     x="378"
+     y="280"
+     id="text260" />
+  <text
+     class="lbl altgr"
+     x="448"
+     y="280"
+     id="text270" />
+  <text
+     class="lbl altgr"
+     x="518"
+     y="280"
+     id="text280" />
+  <!-- Footer note -->
+  <g
+     id="g6359"
+     transform="translate(115)">
+    <g
+       id="g6090">
+      <g
+         id="g2090"
+         transform="translate(94,62)">
+        <g
+           id="g916">
+          <rect
+             class="key"
+             x="50"
+             y="160"
+             width="62"
+             height="56"
+             rx="10"
+             id="rect122" />
+          <text
+             class="lbl base"
+             x="73.828125"
+             y="194.56104"
+             id="text126">Һ</text>
+        </g>
+        <text
+           class="lbl shift"
+           x="58"
+           y="178"
+           id="text124">A</text>
+        <g
+           id="g910">
+          <rect
+             class="key"
+             x="120"
+             y="160"
+             width="62"
+             height="56"
+             rx="10"
+             id="rect132" />
+          <text
+             class="lbl base"
+             x="141.6748"
+             y="194.56104"
+             id="text136">Ы</text>
+        </g>
+        <text
+           class="lbl shift"
+           x="128"
+           y="178"
+           id="text134">S</text>
+        <g
+           id="g904">
+          <rect
+             class="key"
+             x="190"
+             y="160"
+             width="62"
+             height="56"
+             rx="10"
+             id="rect142" />
+          <text
+             class="lbl base"
+             x="213.94678"
+             y="194.56104"
+             id="text146">В</text>
+        </g>
+        <text
+           class="lbl shift"
+           x="198"
+           y="178"
+           id="text144">D</text>
+        <g
+           id="g897">
+          <rect
+             class="key"
+             x="260"
+             y="160"
+             width="62"
+             height="56"
+             rx="10"
+             id="rect152" />
+          <text
+             class="lbl base"
+             x="284.03467"
+             y="194.56104"
+             id="text156">А</text>
+        </g>
+        <text
+           class="lbl shift"
+           x="268"
+           y="178"
+           id="text154">F</text>
+        <g
+           id="g891">
+          <rect
+             class="key"
+             x="330"
+             y="160"
+             width="62"
+             height="56"
+             rx="10"
+             id="rect162" />
+          <text
+             class="lbl shift"
+             x="338"
+             y="178"
+             id="text164">G</text>
+          <text
+             class="lbl base"
+             x="353.46777"
+             y="194.56104"
+             id="text166">П</text>
+        </g>
+        <g
+           id="g883">
+          <rect
+             class="key"
+             x="400"
+             y="160"
+             width="62"
+             height="56"
+             rx="10"
+             id="rect172" />
+          <text
+             class="lbl shift"
+             x="408"
+             y="178"
+             id="text174">H</text>
+          <text
+             class="lbl base"
+             x="423.94678"
+             y="194.56104"
+             id="text176">Р</text>
+        </g>
+        <g
+           id="g925">
+          <rect
+             class="key"
+             x="470"
+             y="160"
+             width="62"
+             height="56"
+             rx="10"
+             id="rect182" />
+          <text
+             class="lbl shift"
+             x="478"
+             y="178"
+             id="text184">J</text>
+          <text
+             class="lbl base"
+             x="493.35352"
+             y="194.55225"
+             id="text186">О</text>
+        </g>
+        <g
+           id="g934">
+          <rect
+             class="key"
+             x="540"
+             y="160"
+             width="62"
+             height="56"
+             rx="10"
+             id="rect192" />
+          <text
+             class="lbl shift"
+             x="548"
+             y="178"
+             id="text194">K</text>
+          <text
+             class="lbl base"
+             x="563.93799"
+             y="194.56104"
+             id="text196">Л</text>
+        </g>
+        <rect
+           class="key"
+           x="610"
+           y="160"
+           width="62"
+           height="56"
+           rx="10"
+           id="rect202" />
+        <text
+           class="lbl shift"
+           x="618"
+           y="178"
+           id="text204">L</text>
+        <text
+           class="lbl base"
+           x="632.98438"
+           y="193.15039"
+           id="text206">Д</text>
+        <g
+           id="g2000"
+           transform="translate(0.89642336)">
+          <rect
+             class="key"
+             x="679.10358"
+             y="160"
+             width="62"
+             height="56"
+             rx="10"
+             id="rect274-6-2"
+             style="fill:#ffffff;stroke:#222222;stroke-width:1.2" />
+          <text
+             class="lbl shift"
+             x="687.10358"
+             y="178"
+             id="text276-7-9"
+             style="font-size:14px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;opacity:0.85;fill:#111111">ö</text>
+          <text
+             class="lbl base"
+             x="699.08649"
+             y="194.56104"
+             id="text278-5-1"
+             style="font-weight:600;font-size:18px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;fill:#111111">Ж</text>
+        </g>
+        <g
+           id="g2045">
+          <rect
+             class="key"
+             x="750"
+             y="160"
+             width="62"
+             height="56"
+             rx="10"
+             id="rect274-6-2-7"
+             style="fill:#ffffff;stroke:#222222;stroke-width:1.2" />
+          <text
+             class="lbl shift"
+             x="758"
+             y="178"
+             id="text276-7-9-0"
+             style="font-size:14px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;opacity:0.85;fill:#111111">ä</text>
+          <text
+             class="lbl base"
+             x="774.26758"
+             y="194.55225"
+             id="text278-5-1-9"
+             style="font-weight:600;font-size:18px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;fill:#111111">Э</text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="g6044">
+      <g
+         id="g559"
+         transform="translate(114,152)">
+        <rect
+           class="key"
+           x="0"
+           y="0"
+           width="62"
+           height="56"
+           rx="10"
+           id="rect20" />
+        <text
+           class="lbl shift"
+           x="8"
+           y="18"
+           id="text22">Q</text>
+        <text
+           class="lbl base"
+           x="26"
+           y="36"
+           id="text24">Й</text>
+      </g>
+      <g
+         id="g568"
+         transform="translate(114,152)">
+        <rect
+           class="key"
+           x="70"
+           y="0"
+           width="62"
+           height="56"
+           rx="10"
+           id="rect30" />
+        <text
+           class="lbl shift"
+           x="78"
+           y="18"
+           id="text32">W</text>
+        <text
+           class="lbl base"
+           x="96"
+           y="36"
+           id="text34">Ө</text>
+      </g>
+      <g
+         id="g577"
+         transform="translate(114,152)">
+        <rect
+           class="key"
+           x="140"
+           y="0"
+           width="62"
+           height="56"
+           rx="10"
+           id="rect40" />
+        <text
+           class="lbl shift"
+           x="148"
+           y="18"
+           id="text42">E</text>
+        <text
+           class="lbl base"
+           x="166"
+           y="36"
+           id="text44">У</text>
+      </g>
+      <g
+         id="g586"
+         transform="translate(114,152)">
+        <rect
+           class="key"
+           x="210"
+           y="0"
+           width="62"
+           height="56"
+           rx="10"
+           id="rect50" />
+        <text
+           class="lbl shift"
+           x="218"
+           y="18"
+           id="text52">R</text>
+        <text
+           class="lbl base"
+           x="236"
+           y="36"
+           id="text54">К</text>
+      </g>
+      <g
+         id="g5911">
+        <rect
+           class="key"
+           x="394"
+           y="152"
+           width="62"
+           height="56"
+           rx="10"
+           id="rect60" />
+        <text
+           class="lbl shift"
+           x="402"
+           y="170"
+           id="text62">T</text>
+        <text
+           class="lbl base"
+           x="420"
+           y="188"
+           id="text64">Е</text>
+        <text
+           class="lbl altgr"
+           x="399.41205"
+           y="202.33379"
+           id="text66"
+           style="font-size:14.6667px"><tspan
+             style="font-weight:bold;font-size:14.6667px"
+             id="tspan592"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;-inkscape-font-specification:'DejaVu Sans, Noto Sans, sans-serif'"
+   id="tspan5901">AltGr</tspan>Ф</tspan></text>
+      </g>
+      <g
+         id="g608"
+         transform="translate(114,152)">
+        <rect
+           class="key"
+           x="350"
+           y="0"
+           width="62"
+           height="56"
+           rx="10"
+           id="rect70" />
+        <text
+           class="lbl shift"
+           x="358"
+           y="18"
+           id="text72">Y</text>
+        <text
+           class="lbl base"
+           x="376"
+           y="36"
+           id="text74">Н</text>
+      </g>
+      <g
+         id="g617"
+         transform="translate(114,152)">
+        <rect
+           class="key"
+           x="420"
+           y="0"
+           width="62"
+           height="56"
+           rx="10"
+           id="rect80" />
+        <text
+           class="lbl shift"
+           x="428"
+           y="18"
+           id="text82">U</text>
+        <text
+           class="lbl base"
+           x="446"
+           y="36"
+           id="text84">Г</text>
+      </g>
+      <g
+         id="g626"
+         transform="translate(114,152)">
+        <rect
+           class="key"
+           x="490"
+           y="0"
+           width="62"
+           height="56"
+           rx="10"
+           id="rect90" />
+        <text
+           class="lbl shift"
+           x="498"
+           y="18"
+           id="text92">I</text>
+        <text
+           class="lbl base"
+           x="509.88623"
+           y="36"
+           id="text94">Ш</text>
+      </g>
+      <g
+         id="g634"
+         transform="translate(114,152)">
+        <rect
+           class="key"
+           x="560"
+           y="0"
+           width="62"
+           height="56"
+           rx="10"
+           id="rect100" />
+        <text
+           class="lbl base"
+           x="584.48291"
+           y="36"
+           id="text104">Ү</text>
+      </g>
+      <text
+         class="lbl shift"
+         x="682"
+         y="170"
+         id="text102">O</text>
+      <g
+         id="g642"
+         transform="translate(114,152)">
+        <rect
+           class="key"
+           x="630"
+           y="0"
+           width="62"
+           height="56"
+           rx="10"
+           id="rect110" />
+        <text
+           class="lbl base"
+           x="654.60596"
+           y="36"
+           id="text114">З</text>
+      </g>
+      <text
+         class="lbl shift"
+         x="752"
+         y="170"
+         id="text112">P</text>
+      <g
+         id="g2165"
+         transform="translate(94,62)">
+        <rect
+           class="key"
+           x="720"
+           y="90"
+           width="62"
+           height="56"
+           rx="10"
+           id="rect274-6-2-6"
+           style="fill:#ffffff;stroke:#222222;stroke-width:1.2" />
+        <text
+           class="lbl shift"
+           x="728"
+           y="108"
+           id="text276-7-9-06"
+           style="font-size:14px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;opacity:0.85;fill:#111111">Å</text>
+        <text
+           class="lbl base"
+           x="744.06982"
+           y="124.56104"
+           id="text278-5-1-2"
+           style="font-weight:600;font-size:18px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;fill:#111111">Х</text>
+      </g>
+      <g
+         id="g2198"
+         transform="translate(94,62)">
+        <rect
+           class="key"
+           x="790"
+           y="90"
+           width="62"
+           height="56"
+           rx="10"
+           id="rect274-6-2-1"
+           style="fill:#ffffff;stroke:#222222;stroke-width:1.2" />
+        <text
+           class="lbl shift"
+           x="798"
+           y="108"
+           id="text276-7-9-8"
+           style="font-size:14px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;opacity:0.85;fill:#111111">^</text>
+        <text
+           class="lbl base"
+           x="812.55371"
+           y="124.56104"
+           id="text278-5-1-7"
+           style="font-weight:600;font-size:18px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;fill:#111111">Ъ</text>
+      </g>
+    </g>
+    <g
+       id="g6148">
+      <g
+         id="g1207"
+         transform="translate(94,62)">
+        <g
+           id="g1201">
+          <rect
+             class="key"
+             x="90"
+             y="230"
+             width="62"
+             height="56"
+             rx="10"
+             id="rect214" />
+          <text
+             class="lbl base"
+             x="114.32031"
+             y="264.56104"
+             id="text218">Я</text>
+        </g>
+        <text
+           class="lbl shift"
+           x="98"
+           y="248"
+           id="text216">Z</text>
+      </g>
+      <g
+         id="g5638">
+        <rect
+           class="key"
+           x="114"
+           y="292"
+           width="62"
+           height="56"
+           rx="10"
+           id="rect214-8"
+           style="fill:#ffffff;stroke:#222222;stroke-width:1.2" />
+        <text
+           class="lbl base"
+           x="141.71729"
+           y="324.75488"
+           id="text218-6"
+           style="font-weight:600;font-size:18px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;fill:#111111">|</text>
+        <text
+           class="lbl shift"
+           x="122"
+           y="310"
+           id="text216-8"
+           style="font-size:14px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;opacity:0.85;fill:#111111">/</text>
+      </g>
+      <g
+         id="g1216"
+         transform="translate(94,62)">
+        <rect
+           class="key"
+           x="160"
+           y="230"
+           width="62"
+           height="56"
+           rx="10"
+           id="rect224" />
+        <text
+           class="lbl shift"
+           x="168"
+           y="248"
+           id="text226">X</text>
+        <text
+           class="lbl base"
+           x="183.82812"
+           y="264.56104"
+           id="text228">Ч</text>
+      </g>
+      <g
+         id="g6098">
+        <rect
+           class="key"
+           x="324"
+           y="292"
+           width="62"
+           height="56"
+           rx="10"
+           id="rect234" />
+        <text
+           class="lbl shift"
+           x="332"
+           y="310"
+           id="text236">C</text>
+        <text
+           class="lbl base"
+           x="348.52246"
+           y="326.55225"
+           id="text238">С</text>
+        <text
+           class="lbl altgr"
+           x="329.95273"
+           y="342"
+           id="text240"
+           style="font-size:14.6667px"><tspan
+             style="font-weight:bold;font-size:14.6667px"
+             id="tspan1222"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;-inkscape-font-specification:'DejaVu Sans, Noto Sans, sans-serif'"
+   id="tspan5933">AltGr</tspan>Ц</tspan></text>
+      </g>
+      <g
+         id="g1238"
+         transform="translate(94,62)">
+        <rect
+           class="key"
+           x="300"
+           y="230"
+           width="62"
+           height="56"
+           rx="10"
+           id="rect244" />
+        <text
+           class="lbl shift"
+           x="308"
+           y="248"
+           id="text246">V</text>
+        <text
+           class="lbl base"
+           x="322.04834"
+           y="264.56104"
+           id="text248">М</text>
+      </g>
+      <g
+         id="g1247"
+         transform="translate(94,62)">
+        <rect
+           class="key"
+           x="370"
+           y="230"
+           width="62"
+           height="56"
+           rx="10"
+           id="rect254" />
+        <text
+           class="lbl shift"
+           x="378"
+           y="248"
+           id="text256">B</text>
+        <text
+           class="lbl base"
+           x="393.46777"
+           y="264.56104"
+           id="text258">И</text>
+      </g>
+      <g
+         id="g1256"
+         transform="translate(94,62)">
+        <rect
+           class="key"
+           x="440"
+           y="230"
+           width="62"
+           height="56"
+           rx="10"
+           id="rect264" />
+        <text
+           class="lbl shift"
+           x="448"
+           y="248"
+           id="text266">N</text>
+        <text
+           class="lbl base"
+           x="464.86523"
+           y="264.56104"
+           id="text268">Т</text>
+      </g>
+      <g
+         id="g1265"
+         transform="translate(94,62)">
+        <rect
+           class="key"
+           x="510"
+           y="230"
+           width="62"
+           height="56"
+           rx="10"
+           id="rect274" />
+        <text
+           class="lbl shift"
+           x="518"
+           y="248"
+           id="text276">M</text>
+        <text
+           class="lbl base"
+           x="533.94678"
+           y="264.56104"
+           id="text278">Ь</text>
+      </g>
+      <g
+         id="g1801"
+         transform="translate(94,62)">
+        <rect
+           class="key"
+           x="580"
+           y="230"
+           width="62"
+           height="56"
+           rx="10"
+           id="rect274-6"
+           style="fill:#ffffff;stroke:#222222;stroke-width:1.2" />
+        <text
+           class="lbl shift"
+           x="588"
+           y="248"
+           id="text276-7"
+           style="font-size:14px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;opacity:0.85;fill:#111111">;</text>
+        <text
+           class="lbl base"
+           x="603.94678"
+           y="264.56104"
+           id="text278-5"
+           style="font-weight:600;font-size:18px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;fill:#111111">Б</text>
+      </g>
+      <g
+         id="g1806"
+         transform="translate(94,62)">
+        <rect
+           class="key"
+           x="650"
+           y="230"
+           width="62"
+           height="56"
+           rx="10"
+           id="rect274-6-3"
+           style="fill:#ffffff;stroke:#222222;stroke-width:1.2" />
+        <text
+           class="lbl shift"
+           x="658"
+           y="248"
+           id="text276-7-5"
+           style="font-size:14px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;opacity:0.85;fill:#111111">:</text>
+        <text
+           class="lbl base"
+           x="670.10596"
+           y="264.55225"
+           id="text278-5-6"
+           style="font-weight:600;font-size:18px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;fill:#111111">Ю</text>
+      </g>
+      <g
+         id="g5678"
+         transform="translate(-3.118042)">
+        <rect
+           class="key"
+           x="817.11804"
+           y="292"
+           width="62"
+           height="56"
+           rx="10"
+           id="rect214-3"
+           style="fill:#ffffff;stroke:#222222;stroke-width:1.2" />
+        <text
+           class="lbl base"
+           x="844.83093"
+           y="326.57321"
+           id="text218-1"
+           style="font-weight:600;font-size:18px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;fill:#111111">/</text>
+        <text
+           class="lbl shift"
+           x="825.11804"
+           y="310.84714"
+           id="text216-4"
+           style="font-size:14px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;opacity:0.85;fill:#111111">?</text>
+      </g>
+    </g>
+    <g
+       id="g5764">
+      <rect
+         x="324.20187"
+         y="362.20187"
+         width="341.73114"
+         height="57.596275"
+         class="key"
+         id="rect10-3"
+         style="fill:#ffffff;stroke:#222222;stroke-width:1;stroke-dasharray:none"
+         rx="10"
+         ry="10" />
+      <g
+         id="g5757"
+         transform="translate(0,1.1444092e-5)">
+        <rect
+           class="key"
+           x="674"
+           y="363"
+           width="62"
+           height="56"
+           rx="10"
+           id="rect214-0"
+           style="fill:#ffffff;stroke:#222222;stroke-width:1.2" />
+        <text
+           class="lbl altgr"
+           x="679.77448"
+           y="397.46191"
+           id="text240-2"
+           style="font-size:17.3333px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;opacity:0.9;fill:#111111"><tspan
+             style="font-weight:bold;font-size:17.3333px"
+             id="tspan1222-6">AltGr</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g5991">
+      <g
+         id="g3261"
+         transform="translate(-70,-35)">
+        <rect
+           class="key"
+           x="94"
+           y="117"
+           width="62"
+           height="56"
+           rx="10"
+           id="rect20-0"
+           style="fill:#ffffff;stroke:#222222;stroke-width:1.2" />
+        <text
+           class="lbl shift"
+           x="102"
+           y="135"
+           id="text22-2"
+           style="font-size:14px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;opacity:0.85;fill:#111111">§</text>
+        <text
+           class="lbl base"
+           x="120"
+           y="153"
+           id="text24-3"
+           style="font-weight:600;font-size:18px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;fill:#111111">Ё</text>
+      </g>
+      <g
+         id="g3269"
+         transform="translate(-70,-35)">
+        <rect
+           class="key"
+           x="164"
+           y="117"
+           width="62"
+           height="56"
+           rx="10"
+           id="rect30-5"
+           style="fill:#ffffff;stroke:#222222;stroke-width:1.2" />
+        <text
+           class="lbl shift"
+           x="172"
+           y="135"
+           id="text32-9"
+           style="font-size:14px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;opacity:0.85;fill:#111111">1</text>
+        <text
+           class="lbl base"
+           x="190.89551"
+           y="151.56104"
+           id="text34-2"
+           style="font-weight:600;font-size:18px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;fill:#111111">!</text>
+      </g>
+      <g
+         id="g3507"
+         transform="translate(-70,-35)">
+        <rect
+           class="key"
+           x="304"
+           y="117"
+           width="62"
+           height="56"
+           rx="10"
+           id="rect50-6"
+           style="fill:#ffffff;stroke:#222222;stroke-width:1.2" />
+        <text
+           class="lbl shift"
+           x="312"
+           y="135"
+           id="text52-1"
+           style="font-size:14px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;opacity:0.85;fill:#111111">3</text>
+        <text
+           class="lbl base"
+           x="327.45898"
+           y="151.45996"
+           id="text54-2"
+           style="font-weight:600;font-size:18px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;fill:#111111">#</text>
+      </g>
+      <g
+         id="g3517"
+         transform="translate(-70,-35)">
+        <rect
+           class="key"
+           x="374"
+           y="117"
+           width="62"
+           height="56"
+           rx="10"
+           id="rect60-3"
+           style="fill:#ffffff;stroke:#222222;stroke-width:1.2" />
+        <text
+           class="lbl shift"
+           x="382"
+           y="135"
+           id="text62-1"
+           style="font-size:14px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;opacity:0.85;fill:#111111">4</text>
+        <text
+           class="lbl base"
+           x="400.29346"
+           y="154.18018"
+           id="text64-9"
+           style="font-weight:600;font-size:18px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;fill:#111111">*</text>
+      </g>
+      <g
+         id="g3964"
+         transform="translate(-70,-35)">
+        <rect
+           class="key"
+           x="444"
+           y="117"
+           width="62"
+           height="56"
+           rx="10"
+           id="rect70-4"
+           style="fill:#ffffff;stroke:#222222;stroke-width:1.2" />
+        <text
+           class="lbl shift"
+           x="452"
+           y="135"
+           id="text72-5"
+           style="font-size:14px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;opacity:0.85;fill:#111111">5</text>
+        <text
+           class="lbl base"
+           x="471.40088"
+           y="149.92188"
+           id="text74-0"
+           style="font-weight:600;font-size:18px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;fill:#111111">:</text>
+      </g>
+      <g
+         id="g3972"
+         transform="translate(-70,-35)">
+        <rect
+           class="key"
+           x="514"
+           y="117"
+           width="62"
+           height="56"
+           rx="10"
+           id="rect80-6"
+           style="fill:#ffffff;stroke:#222222;stroke-width:1.2" />
+        <text
+           class="lbl shift"
+           x="522"
+           y="135"
+           id="text82-1"
+           style="font-size:14px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;opacity:0.85;fill:#111111">6</text>
+        <text
+           class="lbl base"
+           x="542.02051"
+           y="153"
+           id="text84-0"
+           style="font-weight:600;font-size:18px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;fill:#111111">,</text>
+      </g>
+      <g
+         id="g3980"
+         transform="translate(-70,-35)">
+        <rect
+           class="key"
+           x="584"
+           y="117"
+           width="62"
+           height="56"
+           rx="10"
+           id="rect90-3"
+           style="fill:#ffffff;stroke:#222222;stroke-width:1.2" />
+        <text
+           class="lbl shift"
+           x="592"
+           y="135"
+           id="text92-2"
+           style="font-size:14px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;opacity:0.85;fill:#111111">7</text>
+        <text
+           class="lbl base"
+           x="611.58105"
+           y="153"
+           id="text94-0"
+           style="font-weight:600;font-size:18px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;fill:#111111">.</text>
+      </g>
+      <g
+         id="g3987"
+         transform="translate(-70,-35)">
+        <rect
+           class="key"
+           x="654"
+           y="117"
+           width="62"
+           height="56"
+           rx="10"
+           id="rect100-1"
+           style="fill:#ffffff;stroke:#222222;stroke-width:1.2" />
+        <text
+           class="lbl base"
+           x="681.84033"
+           y="148.64307"
+           id="text104-5"
+           style="font-weight:600;font-size:18px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;fill:#111111">;</text>
+        <text
+           class="lbl shift"
+           x="662"
+           y="135"
+           id="text102-5"
+           style="font-size:14px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;opacity:0.85;fill:#111111">8</text>
+      </g>
+      <g
+         id="g3994"
+         transform="translate(-70,-35)">
+        <rect
+           class="key"
+           x="724"
+           y="117"
+           width="62"
+           height="56"
+           rx="10"
+           id="rect110-7"
+           style="fill:#ffffff;stroke:#222222;stroke-width:1.2" />
+        <text
+           class="lbl base"
+           x="750.83398"
+           y="150.64258"
+           id="text114-6"
+           style="font-weight:600;font-size:18px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;fill:#111111">(</text>
+        <text
+           class="lbl shift"
+           x="732"
+           y="135"
+           id="text112-5"
+           style="font-size:14px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;opacity:0.85;fill:#111111">9</text>
+      </g>
+      <rect
+         class="key"
+         x="724"
+         y="82"
+         width="62"
+         height="56"
+         rx="10"
+         id="rect274-6-2-6-9"
+         style="fill:#ffffff;stroke:#222222;stroke-width:1.2" />
+      <text
+         class="lbl shift"
+         x="732"
+         y="100"
+         id="text276-7-9-06-3"
+         style="font-size:14px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;opacity:0.85;fill:#111111">0</text>
+      <text
+         class="lbl base"
+         x="750.93945"
+         y="115.64258"
+         id="text278-5-1-2-7"
+         style="font-weight:600;font-size:18px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;fill:#111111">)</text>
+      <g
+         id="g4019"
+         transform="translate(-70,-35)">
+        <rect
+           class="key"
+           x="864"
+           y="117"
+           width="62"
+           height="56"
+           rx="10"
+           id="rect274-6-2-1-5"
+           style="fill:#ffffff;stroke:#222222;stroke-width:1.2" />
+        <text
+           class="lbl shift"
+           x="872"
+           y="135"
+           id="text276-7-9-8-2"
+           style="font-size:18.6667px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;opacity:0.85;fill:#111111">-</text>
+        <text
+           class="lbl base"
+           x="890.33331"
+           y="151.56104"
+           id="text278-5-1-7-5"
+           style="font-weight:600;font-size:18.6667px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;fill:#111111">_</text>
+      </g>
+      <g
+         id="g4075"
+         transform="translate(-70,-35)">
+        <rect
+           class="key"
+           x="934"
+           y="117"
+           width="62"
+           height="56"
+           rx="10"
+           id="rect274-6-2-1-5-7"
+           style="fill:#ffffff;stroke:#222222;stroke-width:1.2" />
+        <text
+           class="lbl shift"
+           x="942"
+           y="135"
+           id="text276-7-9-8-2-4"
+           style="font-size:18.6667px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;opacity:0.85;fill:#111111">+</text>
+        <text
+           class="lbl base"
+           x="957.17969"
+           y="150.84245"
+           id="text278-5-1-7-5-4"
+           style="font-weight:600;font-size:18.6667px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;fill:#111111">=</text>
+      </g>
+      <g
+         id="g5844">
+        <g
+           id="g5926">
+          <g
+             id="g3499"
+             transform="translate(-70,-35)">
+            <rect
+               class="key"
+               x="234"
+               y="117"
+               width="62"
+               height="56"
+               rx="10"
+               id="rect40-8"
+               style="fill:#ffffff;stroke:#222222;stroke-width:1.2" />
+            <text
+               class="lbl shift"
+               x="242"
+               y="135"
+               id="text42-9"
+               style="font-size:14px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;opacity:0.85;fill:#111111">2</text>
+            <text
+               class="lbl base"
+               x="260.31104"
+               y="153"
+               id="text44-7"
+               style="font-weight:600;font-size:18px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;fill:#111111">&quot;</text>
+          </g>
+          <text
+             class="lbl altgr"
+             x="169.0667"
+             y="130.23933"
+             id="text240-6"
+             style="font-size:14.6667px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;opacity:0.9;fill:#111111"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;-inkscape-font-specification:'DejaVu Sans, Noto Sans, sans-serif'"
+               id="tspan1222-4">AltGr</tspan><tspan
+               id="tspan5917"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:semi-condensed;font-size:17.3333px;font-family:'DejaVu Sans', 'Noto Sans', sans-serif;-inkscape-font-specification:'DejaVu Sans, Noto Sans, sans-serif Bold Semi-Condensed'">@</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
