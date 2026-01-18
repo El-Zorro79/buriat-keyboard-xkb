@@ -14,24 +14,32 @@ xkb_symbols "basic" {
     // Right Alt = Level3
     include "level3(ralt_switch)"
 
-    // Digits row (legacy-style) + typography on Level3
+     // Digits row (legacy-style) + typography on Level3
     key <AE01> { [ 1, exclam ] };
-    key <AE02> { [ 2, quotedbl ] };
-    key <AE03> { [ 3, numbersign, U2116 ] };        // AltGr+3 = №
-    key <AE04> { [ 4, asterisk ] };
-    key <AE05> { [ 5, colon ] };
-    key <AE06> { [ 6, comma, U2026 ] };             // AltGr+6 = …
-    key <AE07> { [ 7, period ] };
-    key <AE08> { [ 8, semicolon ] };
-    key <AE09> { [ 9, parenleft ] };
-    key <AE10> { [ 0, parenright ] };
+    key <AE02> { type[Group1]="FOUR_LEVEL",[ 2, quotedbl, at, at ]};   // AltGr+2 = @
+
+    // Keep № on AltGr, add # on Shift+AltGr
+    key <AE03> { type[Group1]="FOUR_LEVEL",[ 3, numbersign, U2116, numbersign ] }; // AltGr+3 = № ; Shift+AltGr+3 = #
+
+    // Add common modern symbols without changing legacy Shift meanings
+    key <AE04> { type[Group1]="FOUR_LEVEL",[ 4, asterisk, dollar, dollar ] };      // AltGr+4 = $
+    key <AE05> { type[Group1]="FOUR_LEVEL",[ 5, colon, percent, percent ] };       // AltGr+5 = %
+
+    // Keep … on AltGr, add ^ on Shift+AltGr
+    key <AE06> { type[Group1]="FOUR_LEVEL",[ 6, comma, U2026, asciicircum ] };     // AltGr+6 = … ; Shift+AltGr+6 = ^
+
+    key <AE07> { type[Group1]="FOUR_LEVEL",[ 7, period, ampersand, ampersand ] };  // AltGr+7 = &
+    key <AE08> { type[Group1]="FOUR_LEVEL",[ 8, semicolon, asterisk, asterisk ] }; // AltGr+8 = *
+    key <AE09> { type[Group1]="FOUR_LEVEL",[ 9, parenleft, bracketleft, bracketleft ] };   // AltGr+9 = [
+    key <AE10> { type[Group1]="FOUR_LEVEL",[ 0, parenright, bracketright, bracketright ] }; // AltGr+0 = ]
+
     key <AE11> { [ minus, underscore, U2013, U2014 ] }; // AltGr: – ; Shift+AltGr: —
     key <AE12> { [ equal, plus ] };
-
+ 
     // Punctuation keys
     key <BKSL> { [ backslash, bar ] };
     key <AB10> { [ slash, question ] };
-    key <LSGT> { [ slash, bar ] };
+    key <LSGT> { type[Group1]="FOUR_LEVEL", [ slash, bar, less, greater ] }; // AltGr: < ; Shift+AltGr: >
 
     // Letters
     key.type[group1] = "ALPHABETIC";
