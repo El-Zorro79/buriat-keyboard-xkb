@@ -118,7 +118,7 @@ Visual keyboard layout diagrams:
 ├── README.md
 └── LICENSE
 
-
+```
 xkb/     - current, maintained layout files
 legacy/  - original historical version (v0.1, 2008)
 docs/    - documentation and layout diagrams
