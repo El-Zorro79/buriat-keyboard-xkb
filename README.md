@@ -99,9 +99,9 @@ Visual keyboard layout diagrams:
 (updated for v1.2)
 
 
-Repository structure
---------------------
+## Repository Structure
 
+```text
 .
 ├── xkb/
 │   ├── symbols/
@@ -117,6 +117,7 @@ Repository structure
 │   └── layout.png
 ├── README.md
 └── LICENSE
+
 
 xkb/     - current, maintained layout files
 legacy/  - original historical version (v0.1, 2008)
