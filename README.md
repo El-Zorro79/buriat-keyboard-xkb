@@ -1,17 +1,21 @@
 # buriat-keyboard-xkb
 
-Modern XKB keyboard layout for the Buriat language, based on the original 2008 layout and updated for Wayland, GNOME, KDE, and Xfce.
+Modern XKB keyboard layout for the **Buriat language**, based on the original 2008 layout and updated for modern Linux desktop environments (Wayland/X11).
 
-# Buriat Keyboard Layout (XKB)
+---
 
-Modern XKB keyboard layout for the **Buriat language**.
+## Buriat Keyboard Layout (XKB)
 
-This project provides a **standalone Buriat keyboard layout** (not RU+AltGr),
-designed for correct UTF-8 input and long-term use in UI localization,
-documentation, and everyday typing.
+This project provides a **standalone Buriat keyboard layout** (`bua`)  
+(**not** RU+AltGr), designed for correct UTF-8 input and long-term use in:
 
-The layout is based on the original work created in 2008 by Dorzho Dugarov
-and has been modernized by Dorzho Dugarov for current Linux desktop environments.
+- UI localization
+- documentation
+- everyday typing
+- development workflows
+
+The layout is based on the original work created in 2008 by **Dorzho Dugarov**  
+and modernized in 2026 for current Linux desktop environments.
 
 ---
 
@@ -25,6 +29,9 @@ and has been modernized by Dorzho Dugarov for current Linux desktop environments
 - Extended Cyrillic characters via **Level3 (AltGr)**:
   - Ф ф
   - Ц ц
+- **Modern AltGr symbol layer** for everyday and developer use:
+  - `@ # $ % … ^ & * [ ] < >`
+  - `€ £`
 - UTF-8 / Unicode compliant
 - Compatible with:
   - Wayland
@@ -38,23 +45,56 @@ and has been modernized by Dorzho Dugarov for current Linux desktop environments
 
 ## Key combinations (AltGr)
 
-This layout uses **Level3 (AltGr)** for extended Cyrillic characters.
+This layout uses **Level3 (AltGr)** for extended symbols.
 
-When the **Buriat (bua)** layout is active:
+> **Important:**  
+> All combinations below refer to **physical QWERTY keys**.  
+> Make sure the **Buriat (bua)** layout is active.
 
-- **AltGr + T** → ф  
-- **AltGr + Shift + T** → Ф  
+### Letters
+
+- **AltGr + E** → ф  
+- **Shift + AltGr + E** → Ф  
 - **AltGr + C** → ц  
-- **AltGr + Shift + C** → Ц  
+- **Shift + AltGr + C** → Ц  
 
-> Note: These are **physical QWERTY keys**.
-> Make sure the **Buriat layout (bua)** is active when testing AltGr combinations.
+- **AltGr + U** → €  
+- **AltGr + A** → £  
+
+### Digits row (AltGr)
+
+- **AltGr + 2** → `@`
+- **AltGr + 3** → `№`
+- **Shift + AltGr + 3** → `#`
+- **AltGr + 4** → `$`
+- **AltGr + 5** → `%`
+- **AltGr + 6** → `…`
+- **Shift + AltGr + 6** → `^`
+- **AltGr + 7** → `&`
+- **AltGr + 8** → `*`
+- **AltGr + 9** → `[`
+- **AltGr + 0** → `]`
+
+### Punctuation
+
+- **AltGr + ISO <LSGT>** → `<`
+- **Shift + AltGr + ISO <LSGT>** → `>`
+
+---
+
+## Keyboard layout diagram
+
+A visual keyboard layout diagram is available:
+
+- `docs/layout.svg`
+- `docs/layout.png`
+
+(Updated for v1.2)
 
 ---
 
 ## Repository Structure
 
-.
 ├── xkb/
 │ ├── symbols/
 │ │ └── bua
@@ -65,14 +105,15 @@ When the **Buriat (bua)** layout is active:
 │ └── ver0.1/
 │ └── bua
 ├── docs/
+│ ├── layout.svg
 │ └── layout.png
 ├── README.md
 └── LICENSE
 
 
-- `xkb/` — current, maintained layout files
-- `legacy/` — original historical version (v0.1, 2008)
-- `docs/` — documentation and layout diagrams
+- `xkb/` — current, maintained layout files  
+- `legacy/` — original historical version (v0.1, 2008)  
+- `docs/` — documentation and layout diagrams  
 
 ---
 
@@ -90,21 +131,29 @@ This is required for desktop environments to reload XKB layouts.
 
 Usage
 
-You can activate the layout via system settings
+Activate the layout via system settings
 or manually for testing:
 
 setxkbmap -layout bua
 
 
-To inspect the active layout:
+Using multiple layouts (example):
+
+setxkbmap -layout fi,bua -variant ,basic \
+  -option "grp:win_space_toggle,level3(ralt_switch)"
+
+
+Inspect the active layout:
 
 setxkbmap -print -verbose 10
 
 Troubleshooting
 
-If new symbols do not work after installation, log out and log back in to rebuild the XKB cache.
+After updating layout files, log out and log back in
 
-When using multiple layouts (e.g. fi,bua), make sure you switched to the Buriat layout before testing AltGr combinations.
+When using multiple layouts, ensure Buriat (bua) is active before testing AltGr
+
+On Wayland sessions, changes may require a full session restart
 
 Design Principles
 
